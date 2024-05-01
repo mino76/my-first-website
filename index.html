@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dean's page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .bg-1 {
+      background-color: #000000; /* Black */
+      color: #ffffff;
+    }
+
+    .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+    }
+
+    .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+    }
+
+    .bg-4 {
+      background-color: #2f2f2f; /* Header Grey */
+      color: #ffffff;
+    }
+
+    .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .text-section-1 {
+      padding-top: 35px;
+    }
+
+    .text-sections-2-and-3 {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+
+    body {
+      font: 20px "Montserrat", sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .margin {
+      margin-bottom: 45px;
+    }
+    </style>
+</head>
+<body>
+<!-- This is the menu navigation --> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Dean's page</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown"> Personal <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Personal/aboutme.html">About me</a></li>
+          <li><a href="Personal/cv.html">Online CV</a></li>
+          <li><a href="Personal/mysocials.html">My socials</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown"> LearnUpon <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="LearnUpon/learnuponanywhere.html">LearnUpon Anywhere</a></li>
+          <li><a href="LearnUpon/catalog.html">Catalog</a></li>
+          <li><a href="LearnUpon/apidashboard.html">API Dashboard</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown"> Projects <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="index.html">My website</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Intro section -->
+<div class="container-fluid bg-1 text-center text-section-1">
+  <h3 class="margin">Ballycogley, Co.Wexford</h3>
+  <img class="img-responsive img-rounded" src="Images/sunset.jpeg" alt="Sunset" style = "display:inline">
+</div>
+
+<!-- 2nd section -->
+<div class="container-fluid bg-2 text-center text-sections-2-and-3">
+  <h3>What Am I?</h3>
+  <p>Lorem ipsum..</p>
+  <a href="#" class="btn btn-default btn-lg">Search
+    <span class="glyphicon glyphicon-search"></span>
+  </a>
+</div>
+
+<!-- 3rd section -->
+<div class="container-fluid bg-3 text-center text-sections-2-and-3">
+  <h3 class="margin"> Local photography</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Mayglass cemetary, Co.Wexford</p>
+      <img class="img-responsive" src="Images/church.jpeg" alt="church" style="width:100%">
+    </div>
+    <div class="col-sm-4">
+      <p>Dollar Bay, Co.Wexford</p>
+      <img class="img-responsive" src="Images/dollar-bay.jpeg" alt="dollar bay" style="width:100%">
+    </div>
+    <div class="col-sm-4">
+      <p>Mayglass water tower, Co.Wexford</p>
+      <img class="img-responsive" src="Images/water-tower.jpeg" alt="water tower" style="width:100%">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid bg-4 text-center text-sections-2-and-3">
+  <p> Powered by Dean's brain (and lots of tutorials) </p>
+</footer>
+
+</body>
+</html>
